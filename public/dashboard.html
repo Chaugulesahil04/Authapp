@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuthApp | Dashboard</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <strong>🔐 AuthApp</strong>
+    <button id="logoutBtn" class="btn small">Logout</button>
+  </nav>
+
+  <main class="container">
+    <section class="card">
+      <h1>Dashboard</h1>
+      <p>You are authenticated.</p>
+
+      <div class="profile">
+        <p><strong>Name:</strong> <span id="userName">Loading...</span></p>
+        <p><strong>Email:</strong> <span id="userEmail">Loading...</span></p>
+        <p><strong>Account created:</strong> <span id="createdAt">Loading...</span></p>
+      </div>
+
+      <div class="protected">
+        <h3>Protected API Response</h3>
+        <pre id="protectedData">Loading...</pre>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1788724140606",
+    "name": "sahil chougule",
+    "email": "sahilchougule.ias@gmail.com",
+    "password": "$2a$12$vLZPKOqf2NwWH7t8ghqRjuMVkCMy3hr30ZspNMBreKSIot8wm/IGa",
+    "createdAt": "2026-09-06T19:49:00.606Z"
+  },
+  {
+    "id": "1788724223562",
+    "name": "sahil chougule",
+    "email": "chaugulesahil04@gmail.com",
+    "password": "$2a$12$I1m8LpigKS0jnwkSqXmtwuV1TuP2oEks.6T47p7M3sIP/mZI9eixm",
+    "createdAt": "2026-09-06T19:50:23.562Z"
+  }
+]

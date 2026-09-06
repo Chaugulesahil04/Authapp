@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuthApp | Login</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Welcome Back</h1>
+      <p class="muted">Login to your account.</p>
+
+      <form id="loginForm">
+        <label>Email</label>
+        <input id="email" type="email" placeholder="you@example.com" required>
+
+        <label>Password</label>
+        <input id="password" type="password" placeholder="Your password" required>
+
+        <button class="btn" type="submit">Login</button>
+      </form>
+
+      <p id="message"></p>
+      <p>Don't have an account? <a href="/signup.html">Sign up</a></p>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
